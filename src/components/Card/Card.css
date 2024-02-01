@@ -1,0 +1,68 @@
+.card {
+  height: 300px;
+  width: 1150px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+}
+.image-div {
+  width: 200px;
+  height: 300px;
+  /* background-color: antiquewhite; */
+  padding: 10px;
+}
+.image {
+  width: 100%;
+  height: 270px;
+}
+.details-div {
+  width: 620px;
+  height: 300px;
+  margin-top: 23px;
+  margin-left: 10px;
+  /* background-color: aqua; */
+}
+.heading {
+  display: inline;
+}
+.heading:hover {
+  color: rgb(31, 159, 239);
+  cursor: pointer;
+}
+.list {
+  padding-right: 30px;
+  padding-left: 17px;
+}
+.price-div {
+  margin-left: 5px;
+}
+.strike {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.686);
+}
+.green {
+  color: rgb(38, 165, 65);
+  font-weight: 700;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.674);
+}
+.assured {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.price-p {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.price-p p {
+  margin: 0;
+}
+.flipkart-assured {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
